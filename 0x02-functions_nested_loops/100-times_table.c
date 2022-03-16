@@ -5,7 +5,7 @@
  *
  * Description: prints the time table
  *
- * Return: void 
+ * Return: void
  */
 void print_times_table(int n)
 {
