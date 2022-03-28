@@ -20,5 +20,5 @@ if (!(*--accept))
 break;
 accept = t;
 }
-return (c)P;
+return (c);
 }
