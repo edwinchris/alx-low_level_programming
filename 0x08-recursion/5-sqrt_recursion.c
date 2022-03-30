@@ -14,7 +14,7 @@ return (_sqrt(n, 1));
  * @i: integer parameter
  * Return: sqrt
  */
-int _sqrt_recursion(int n, int i)
+int _sqrt(int n, int i)
 {
 if (n < 0)
 return (-1);
