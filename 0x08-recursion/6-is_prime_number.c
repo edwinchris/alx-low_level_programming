@@ -34,6 +34,6 @@ return (0);
 }
 else
 {
-return (divisor(3, n));
+return (divisors(3, n));
 }
 }
