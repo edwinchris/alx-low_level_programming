@@ -6,7 +6,7 @@
  * @n: bytes
  * Return: string
  */
-void *_calloc(unsigned int nmemb, unsigned int size)
+void *_memset(char *s, char b, unsigned int n)
 {
 unsigned int i;
 for (i = 0; i < n; i++)
