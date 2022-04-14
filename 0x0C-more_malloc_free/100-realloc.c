@@ -13,10 +13,14 @@ unsigned int i;
 if (ptr != NULL)
 clone = ptr;
 else
-{return (malloc(new_size));}
+{
+return (malloc(new_size));
+}
 if (new_size == 0 && ptr != NULL)
-{free(ptr);
-return (0); }
+{
+free(ptr);
+return (0);
+}
 relloc = malloc(new_size);
 if (relloc == NULL)
 return (0);
