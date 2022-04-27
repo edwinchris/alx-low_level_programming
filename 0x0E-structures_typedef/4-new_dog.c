@@ -24,7 +24,7 @@ return (NULL);
 }
 doge->name = malloc(i * sizeof(doge->name));
 if (doge->name == NULL)
-{
+{		
 free(doge->name);
 free(doge);
 return (NULL);
